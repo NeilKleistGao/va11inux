@@ -1,0 +1,30 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "kitty",
+    "source": "/usr/share/icons/garuda/dr460nized-fastfetch.png",
+    "width": 32
+  },
+  "modules": [
+    "break",
+    "host",
+    "cpu",
+    "gpu",
+    "battery",
+    "memory",
+    "break",
+    "os",
+    "kernel",
+    "users",
+    "terminal",
+    "shell",
+    "packages",
+    "separator",
+    {
+      "type": "command",
+      "shell": "fish",
+      "text": "set t drinks life; set r1 (random 1 1 2); set r2 (math 3 - $r1); printf 'Time to mix %s and change %s.' $t[$r1] $t[$r2]",
+      "key": "Jill"
+    }
+  ]
+}
